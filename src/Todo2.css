@@ -1,0 +1,191 @@
+body{
+  margin:0px;
+ 
+  background-color:#056679;
+  /* background-color:rgb(89,21,64); */
+  font-family:sans-serif;
+
+}
+
+.container{
+  width: 350px;
+  margin:auto;
+  margin-top:30px;
+ /*  position: absolute;
+  left : 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);/* centers in the exact center */ 
+ text-align: center;
+}
+
+.input-section{
+background-color: #b0abab;
+/* background-color: rgb(89,21,64); */
+padding: 18px;
+border-radius: 10px;
+box-shadow:0px 7px 6px #00000025;
+}
+
+
+
+.input-section input{
+  border-radius: 5px;
+  border: 1px solid #106879;
+  width:100%;
+  padding:10px;
+  box-sizing: border-box;  /* fits inside parent width */
+  background-color: #055565;
+  box-shadow:0 4px 6px #0000001c;
+
+
+}
+
+ul{
+ /*  background-color:#e7dede;
+  min-height: 200px; */
+  padding:0px;
+  text-align:left;
+  
+}
+
+input::placeholder{
+  color:#0d879c;
+}
+input:focus {
+  outline: none; 
+  border: 1px solid #1392a9;
+}
+
+
+h1{
+  margin:0;
+  margin-bottom:15px;
+  color:#0c6a7b;
+  font-weight: 800;
+
+}
+
+ul li{
+  /* disintegrating li so that it can contain text and other items like icon seperately */
+  display: flex;
+  list-style:none;
+  background-color:  #055565;
+  padding: 15px;
+  font-weight: 800;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #08869e;
+  /* color:rgb(89, 21, 64); */ 
+  box-shadow:0 4px 6px #0000003b;
+}
+
+/* icon seperated from text. this thing has more efficiency compared to float:right */
+ul li div{
+  text-align: right;
+  flex:1;
+  cursor:pointer;
+}
+
+ul li i{
+  padding:5px;
+}
+
+
+
+
+
+
+
+/* -------------------ai styling---------------------- */
+/* Body styles */
+/* body {
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+} */
+
+/* Header styles */
+/* header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+} */
+
+/* Input styles */
+/* input[type="text"] {
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+} */
+
+/* Todo item styles */
+/* .todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+} */
+
+/* .todo-item .checkbox {
+  margin-right: 10px;
+} */
+
+/* .todo-item .delete-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+} */
+
+/* .todo-item .delete-btn:hover {
+  background-color: #555;
+} */
+
+/* Footer styles */
+/* footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+} */
+
+
+/* --------------dark color theme ai----------------  */
+
+/* :root {
+  --primary-color: #2196F3;
+  --background-color: #121212;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+button, input[type="checkbox"] {
+  border-color: var(--text-color);
+}
+
+button:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.todo-item {
+  background-color: #1e1e1e;
+  border: 1px solid var(--text-color);
+}
+
+.todo-item input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: #8d8d8d;
+}
+ */
